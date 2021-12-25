@@ -1,4 +1,69 @@
 {
+  "QRHardwareInvalidTransactionTitle": {
+    "message": "Hata"
+  },
+  "QRHardwareMismatchedSignId": {
+    "message": "Uyumsuz işlem verisi. Lütfen işlem ayrıntılarını kontrol edin."
+  },
+  "QRHardwarePubkeyAccountOutOfRange": {
+    "message": "Başka hesap yok. Aşağıda listelenmeyen başka bir hesaba erişmek istiyorsanız lütfen donanım cüzdanınızı yeniden bağlayın ve seçin."
+  },
+  "QRHardwareScanInstructions": {
+    "message": "QR kodunu kameranızın önüne getirin. Ekran bulanık, ancak bu okumayı etkilemeyecektir."
+  },
+  "QRHardwareSignRequestCancel": {
+    "message": "Reddet"
+  },
+  "QRHardwareSignRequestDescription": {
+    "message": "Cüzdanınızla imzaladıktan sonra imzayı almak için \"İmza Al\" öğesine tıklayın"
+  },
+  "QRHardwareSignRequestGetSignature": {
+    "message": "İmza Al"
+  },
+  "QRHardwareSignRequestSubtitle": {
+    "message": "Cüzdanınızı QR kodu ile tarayın"
+  },
+  "QRHardwareSignRequestTitle": {
+    "message": "İmza İste"
+  },
+  "QRHardwareUnknownQRCodeTitle": {
+    "message": "Hata"
+  },
+  "QRHardwareUnknownWalletQRCode": {
+    "message": "Geçersiz QR kodu. Lütfen donanım cüzdanın senkronizasyon QR kodunu tarayın."
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "QR Kodu Tara"
+  },
+  "QRHardwareWalletSteps1Description": {
+    "message": "QR kodları üzerinden iletişim kuran bir airgap donanım cüzdan bağlayın. Resmi olarak desteklenen airgap donanım cüzdanlar şunlardır:"
+  },
+  "QRHardwareWalletSteps1Title": {
+    "message": "QR Tabanlı Donanım Cüzdan"
+  },
+  "QRHardwareWalletSteps2Description": {
+    "message": "AirGap Vault & Ngrave (Çok Yakında)"
+  },
+  "about": {
+    "message": "Hakkında"
+  },
+  "aboutSettingsDescription": {
+    "message": "Sürüm, destek merkezi ve iletişim bilgileri"
+  },
+  "acceleratingATransaction": {
+    "message": "* Daha yüksek bir gaz fiyatı kullanarak bir işlemi hızlandırmak ağ tarafından daha hızlı işlenme şansını artırır ancak her zaman garanti etmez."
+  },
+  "acceptTermsOfUse": {
+    "message": "Şunu okudum ve kabul ettim: $1",
+    "description": "$1 is the `terms` message"
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 bu maksimum miktara kadar erişebilir ve harcayabilir",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
+  "accessingYourCamera": {
+    "message": "Kameranıza erişiyor..."
+  },
   "account": {
     "message": "Hesap"
   },
@@ -8,8 +73,164 @@
   "accountName": {
     "message": "Hesap İsmi"
   },
+  "accountNameDuplicate": {
+    "message": "Bu hesap adı zaten mevcut",
+    "description": "This is an error message shown when the user enters a new account name that matches an existing account name"
+  },
+  "accountOptions": {
+    "message": "Hesap Seçenekleri"
+  },
+  "accountSelectionRequired": {
+    "message": "Bir hesap seçmeniz gerekli!"
+  },
+  "active": {
+    "message": "Etkin"
+  },
+  "activity": {
+    "message": "Etkinlik"
+  },
+  "activityLog": {
+    "message": "Etkinlik günlüğü"
+  },
+  "add": {
+    "message": "Ekle"
+  },
+  "addANetwork": {
+    "message": "Bir ağ ekle"
+  },
+  "addANickname": {
+    "message": "Bir takma ad ekle"
+  },
+  "addAcquiredTokens": {
+    "message": "MetaMask kullanarak elde ettiğiniz tokenleri ekleyin"
+  },
+  "addAlias": {
+    "message": "Tam ad ekle"
+  },
+  "addContact": {
+    "message": "Kişi ekle"
+  },
+  "addCustomToken": {
+    "message": "Özel Token Ekle"
+  },
+  "addCustomTokenByContractAddress": {
+    "message": "Bir tokeni bulamadınız mı? Adresini yapıştırarak dilediğiniz tokeni manuel olarak ekleyebilirsiniz. Token sözleşme adreslerini şurada bulabilirsiniz: $1.",
+    "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
+  },
+  "addEthereumChainConfirmationDescription": {
+    "message": "Bu, bu ağın MetaMas dahilinde kullanılmasına olanak tanıyacaktır."
+  },
+  "addEthereumChainConfirmationRisks": {
+    "message": "MetaMask özel ağları doğrulamaz."
+  },
+  "addEthereumChainConfirmationRisksLearnMore": {
+    "message": "$1 hakkında bilgi edinin.",
+    "description": "$1 is a link with text that is provided by the 'addEthereumChainConfirmationRisksLearnMoreLink' key"
+  },
+  "addEthereumChainConfirmationRisksLearnMoreLink": {
+    "message": "dolandırıcılık ve ağ güvenliği riskleri",
+    "description": "Link text for the 'addEthereumChainConfirmationRisksLearnMore' translation key"
+  },
+  "addEthereumChainConfirmationTitle": {
+    "message": "Bu sitenin bir ağ eklemesine izin verilsin mi?"
+  },
+  "addFriendsAndAddresses": {
+    "message": "Güvendiğiniz arkadaşlarınızı ve adresleri ekleyin"
+  },
+  "addMemo": {
+    "message": "Not ekleyin"
+  },
+  "addNFT": {
+    "message": "NFT ekleyin"
+  },
+  "addNetwork": {
+    "message": "Ağ ekleyin"
+  },
+  "addSuggestedTokens": {
+    "message": "Önerilen Tokenleri ekleyin"
+  },
+  "addToAddressBook": {
+    "message": "Adres defterine ekleyin"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "ör. Hüseyin M."
+  },
   "addToken": {
     "message": "Jeton ekle"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "addressBookIcon": {
+    "message": "Adres defteri simgesi"
+  },
+  "advanced": {
+    "message": "Gelişmiş"
+  },
+  "advancedBaseGasFeeToolTip": {
+    "message": "İşleminiz bloka dahil edildiğinde maks. baz ücretiniz ile gerçek paz ücret arasındaki fark iade edilecektir. Toplam miktar, maks. baz ücreti (GWEI'de) * gaz limiti olarak hesaplanacaktır."
+  },
+  "advancedGasFeeDefaultOptIn": {
+    "message": "\"Gelişmiş\" için şunları varsayılanım olarak kaydet: $1"
+  },
+  "advancedGasFeeDefaultOptOut": {
+    "message": "Varsayılan olarak her zaman bu değerleri ve gelişmiş ayarları kullanın."
+  },
+  "advancedGasFeeModalTitle": {
+    "message": "Gelişmiş gaz ücreti"
+  },
+  "advancedGasPriceTitle": {
+    "message": "Gaz fiyatı"
+  },
+  "advancedOptions": {
+    "message": "Gelişmiş Seçenekler"
+  },
+  "advancedPriorityFeeToolTip": {
+    "message": "Öncelik ücreti (başka bir deyişle \"madenci bahşişi\") doğrudan madencilere gider ve işleminizi önceliklendirmeniz için teşvik eder."
+  },
+  "advancedSettingsDescription": {
+    "message": "Geliştirici özelliklerine erişin, Durum Günlüklerini indirin, Hesabı Sıfırlayın, test ağlarını ve özel RPC kurun"
+  },
+  "affirmAgree": {
+    "message": "Kabul ediyorum"
+  },
+  "aggregatorFeeCost": {
+    "message": "Toplayıcı ağ ücreti"
+  },
+  "alertDisableTooltip": {
+    "message": "Bu, \"Ayarlar > Uyarları\" öğesinden değiştirilebilir"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Bağlı olmayan bir hesap ile bir web sitesine göz atma seçildi"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Bu uyarı, bir bağlı web3 sitesine göz attığınızda gösteirlir ancak şu anda seçili hesap bağlı değildir."
+  },
+  "alertSettingsWeb3ShimUsage": {
+    "message": "Bir web sitesi kaldırılmış window.web3 API'sini kullanmaya çalıştığında"
+  },
+  "alertSettingsWeb3ShimUsageDescription": {
+    "message": "Bu uyarı, kaldırılmış window.web3 API kullanmaya çalışan bir ve bunun sonucu olarak bozulmuş olan bir siteye göz attığında bir açılır pencerede gösterilir."
+  },
+  "alerts": {
+    "message": "Uyarılar"
+  },
+  "alertsSettingsDescription": {
+    "message": "Her uyarıyı etkinleştirin ya da devre dışı bırakın"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Bu harici uzantının şunu yapmasına izin verin:"
+  },
+  "allowSpendToken": {
+    "message": "Şuna erişim için izin verin: $1?",
+    "description": "$1 is the symbol of the token that are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Bu sitenin şunu yapmasına izin verin:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "$1 için şu miktara kadar para çekme ve harcama izni ver:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
   },
   "amount": {
     "message": "Tutar"
@@ -30,11 +251,42 @@
     "message": "MetaMask Flask",
     "description": "The name of the application (Flask)"
   },
+  "approvalAndAggregatorTxFeeCost": {
+    "message": "Onaylayıcı ve toplayıcı ağ ücreti"
+  },
+  "approvalTxGasCost": {
+    "message": "Onaylayıcı İşlem Gaz Maliyeti"
+  },
   "approve": {
     "message": "Onaylamak"
   },
+  "approveButtonText": {
+    "message": "Onayla"
+  },
+  "approveSpendLimit": {
+    "message": "$1 harcama limitini onaylayın",
+    "description": "The token symbol that is being approved"
+  },
   "approved": {
     "message": "Onaylandı"
+  },
+  "approvedAmountWithColon": {
+    "message": "Onaylanan miktar:"
+  },
+  "asset": {
+    "message": "Varlık"
+  },
+  "assetOptions": {
+    "message": "Varlık seçenekleri"
+  },
+  "assets": {
+    "message": "Varlıklar"
+  },
+  "attemptToCancel": {
+    "message": "İptal etmeyi dene?"
+  },
+  "attemptToCancelDescription": {
+    "message": "Bu denemeyi göndermek asıl işleminizin iptal edileceğini garanti etmez. İptal etme denemesi başarılı olursa sizden yukarıdaki ücret tahsil edilecektir."
   },
   "attemptingConnect": {
     "message": "Blockchain'e bağlanmayı deniyor"
@@ -42,8 +294,23 @@
   "attributions": {
     "message": "Atıflar"
   },
+  "authorizedPermissions": {
+    "message": "Aşağıdaki izinleri verdiniz"
+  },
+  "autoLockTimeLimit": {
+    "message": "Otomatik Kilitleme Sayacı (dakika)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "MetaMask kilitlenmeden önce dakika cinsinden boşta kalma süresini ayarlayın."
+  },
+  "average": {
+    "message": "Ortalama"
+  },
   "back": {
     "message": "Geri"
+  },
+  "backToAll": {
+    "message": "Tümüne Geri Git"
   },
   "balance": {
     "message": "Bakiye:"
@@ -218,6 +485,9 @@
     "message": "Kovan Test Ağı"
   },
   "learnMore": {
+    "message": "Daha fazla bilgi."
+  },
+  "learnMoreUpperCase": {
     "message": "Daha fazla bilgi."
   },
   "likeToImportTokens": {
